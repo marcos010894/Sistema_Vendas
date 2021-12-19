@@ -183,7 +183,7 @@
                     </div>
                     <div class="modal-body">
                     Até o momento, você teve um total de vendas que somam o valor de lucro bruto de
-                           <span> R$ <number_format(?php echo $mes, 2) ?>, </span> neste periodo o custo que você teve com os produtos vendidos foi dê 
+                           <span> R$ <?php echo number_format($mes, 2) ?>, </span> neste periodo o custo que você teve com os produtos vendidos foi dê 
                            <span> R$ <?php echo number_format($totalCustoMes, 2) ?> </span> e o lucro liquido foi de: 
                            <span> R$ <?php echo number_format($totalLucroMes, 2) ?> </span>.
                             Atualmente o seu produto mais vendido é  <span style="color: orange"> <?php echo $obterprodMaisVendido['nome']; ?> </span> e o seu produto menos vendido foi 

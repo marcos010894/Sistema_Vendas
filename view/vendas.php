@@ -18,23 +18,11 @@
 		 <div class="row">
 		 	<div class="col-sm-12">
 		 		<span class="btn btn-default" id="vendaProdutosBtn">Vender Produto</span>
-		 		<span class="btn btn-default" id="vendasFeitasBtn">Lista de Vendas</span>
 		 	</div>
 		 </div>
 		 <div class="row">
 		 	<div class="col-sm-12">
 		 		<div id="vendaProdutos"></div>
-		 		<div id="vendasFeitas">
-
-		 			
-<?php 
-
-	
-	//require_once "vendas/vendasRelatorios.php" 
-
-	?>
-
-		 		</div>
 		 	</div>
 		 </div>
 	</div>

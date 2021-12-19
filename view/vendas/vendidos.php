@@ -57,25 +57,27 @@
 
                     //Retorna o Menos vendido
                     
-                    $menosVendido = [];
+                    $maisVendido = [];
                     uasort($somamaisVendidosMes, function($a, $b){
                         return $a['quant'] >  $b['quant'];
                     });
 
                     foreach ($somamaisVendidosMes as $e){
-                        array_push($menosVendido, $e['id_prod']); 
+                        array_push($maisVendido, $e['id_prod']); 
                     };
+                    
                     //FIM Retorna o Menos vendido                   
 
                     //Retorna o Mais vendido
-                    $maisVendido = [];
+                    $menosVendido = [];
                     uasort($somamaisVendidosMes, function($a, $b){
                         return $a['quant'] <  $b['quant'] ;
                     });
 
                     foreach ($somamaisVendidosMes as $e){
-                        array_push($maisVendido, $e['id_prod']);
+                        array_push($menosVendido, $e['id_prod']);
                     };
+                    
                     //FIM Retorna o Mais vendido
                 ?>
                 
