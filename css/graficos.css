@@ -1,0 +1,144 @@
+#faturamento{
+    display: flex;
+    margin-bottom: 15px;
+    text-align: center;
+}
+@media(max-width: 800px){
+    #faturamento{
+        display: flex;
+        margin-bottom: 15px;
+        flex-direction: column;
+    }
+}
+#dia{
+    width: auto;
+    margin: 0 5px;
+    height: 150px;
+    background-color: green;
+    border-radius: 22px;
+    color: white;
+    box-sizing: border-box;
+    padding: 50px;
+    margin-bottom: 5px;
+  
+  }
+  #mes{
+    width: auto;
+    margin: 0 5px;
+    height: 150px;
+    background-color: yellowgreen;
+    border-radius: 22px;
+    color: white;
+    box-sizing: border-box;
+    padding: 50px;
+    margin-bottom: 5px;
+    
+  }
+  #ano{
+    width: auto;
+    margin: 0 5px;
+    height: 150px;
+    background-color: rgb(1, 128, 22);
+    border-radius: 22px; 
+    color: white; 
+    box-sizing: border-box;
+    padding: 50px;
+    margin-bottom: 5px;
+  }
+  #ticket{
+    width: auto;
+    margin: 0 5px;
+    height: 150px;
+    background-color: rgb(1, 128, 22);
+    border-radius: 22px; 
+    color: white; 
+    box-sizing: border-box;
+    padding: 50px;
+    margin-bottom: 5px;
+  }
+
+  .totalLucroCusto{
+    display: flex;
+    text-align: center;
+  }
+
+
+  .custo{
+    width: 40%;
+    background-color: rgb(250, 0, 0);
+    margin-left: 1px;
+    height: auto;
+    border-radius: 5px; 
+    color: white; 
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  .lucro{
+    width: 40%;
+    margin-left: 10%;
+    background-color: rgb(6, 192, 22);
+    height: auto;
+    border-radius: 5px; 
+    color: white; 
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
+  #relatorios{
+      display: flex;
+      margin: 15px;
+  }
+
+  @media(max-width: 800px){
+    #relatorios{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  .geralleft{
+    width: 50%;
+    margin: 0 5px;
+    height: 30%;
+    background-color: rgb(51, 44, 5);
+    border-radius: 22px;
+    color: white;
+    box-sizing: border-box;
+    padding: 50px;
+    margin-bottom: 5px;
+  }
+  #mais_menosVendido{
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  .maisvendido span{
+    color: red;
+  }
+  .geral{
+    width: 50%;
+    margin: 0 5px;
+    height: auto;
+    box-sizing: border-box;
+    background-color:rgb(245, 245, 245);
+    color: black;
+    word-wrap: break-word;
+    padding: 50px;
+    margin-bottom: 5px;
+  }
+  .geral span{
+    color: rgb(7, 224, 7);
+  }
+  
+  @media(max-width: 800px){
+    .geral{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .geralleft{
+      width: 100%;
+    }
+    .maisvendido{
+      width: 100%;
+    }
+  }
